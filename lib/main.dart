@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_2/subclass2.dart';
 
 /*
 void main(){
@@ -26,14 +27,7 @@ class SubClass extends StatelessWidget{
             title: Center(child: Text("This is Appbar 2",style: TextStyle(color: Colors.white),),),
             backgroundColor: Colors.black26),
 
-        body: Material(
-          color: Colors.black12,
-          child: Center(
-            child: Text("This is body Text",textDirection: TextDirection.ltr,
-              style: TextStyle(color: Colors.black),),
-          ),
-
-        ),
+        body: subclass2()
 
       ),
 
