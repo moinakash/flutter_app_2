@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
+/*
 void main(){
   runApp(new SubClass());
 }
+*/
+
+
+void main()=> runApp(new SubClass());
 
 
 
